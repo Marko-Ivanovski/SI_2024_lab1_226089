@@ -1,0 +1,65 @@
+1. Инсталирано ми е Git.
+2. Master ми е default(место main).
+3. Направив remote repo со име "SI_2024_lab1_226089"
+4. Иницијализиран локален директориум со:
+	-git init
+5. Поврзување со remote repo-то со:
+	-git remote add origin https://github.com/Marko-Ivanovski/SI_2024_lab1_226089.git
+6. Додавање на README.md датотека и правење на прв commit:
+	-git add README.md 
+   	-git commit -m "Initial commit" 
+7. Превземени 3 Java дадотеку и commmit на трите:
+	-git add *.java
+   	-git commit -m "Add starter code" 
+8. Синхронизирање со remote repo и креирање на upstream со "-u":
+   	-git push -u master
+9. Креирање на 2 гранки od master:
+	-git branch bug1
+   	-git branch bug2
+10. Преместување во bug1 гранка: 
+	-git checkout bug1
+11. Во "SILab1_1.java" поправање на грешката на ред 8 и commit:
+	-git add SILab1_1.java  
+    	-git commit -m "Fix wrong condition in filterOddLengthStrings"
+12. Преместување во  bug2 гранка:
+	-git checkout bug2
+13. Во "SILab1_2.java" поправање на грешката на ред 8 и commit:
+	-git add SILab1_2.java
+    	-git commit -m "Fix wrong condition in makeBigStringFrom"
+14. Преместување назад во bug1 гранка:
+	-git checkout bug1
+15. Во "SILab1Main.java" додавање повик од методот "filterOddLengthStrings" и commit:
+	-git add SILab1Main.java 
+    	-git commit -m "Call method filterOddLengthStrings in main class"
+16. Преместување назад во bug2 гранка:
+	-git checkout bug2
+17. Во "SILab1Main.java" додавање повик од методот "makeBigStringFrom" и commit:
+	-git add SILab1Main.java
+    	-git commit -m "Call method makeBigStringFrom in main class"
+18. Синхронизирање со remote repo:
+	-git push -u origin bug1
+   	-git push -u origin bug2
+19. Преместување во master гранка:
+	-git checkout master
+20. Спојување на гранка bug1 со master:
+	-git merge bug1
+21. Синхронизирање со remote repo:
+	-git push -u origin master
+22. Преместување во гранка bug2:
+	-git checkout bug2
+23. Користење на rebase во bug2 гранка, но се јавува конфликт и мора да се смени 16ти ред во "SILab1Main.java":
+	-git add SILab1Main.java
+	-git rebase master
+24. Преместување во гранка master:
+	-git checkout master
+25. Спојување на гранка bug2 со master:
+	-git merge bug2
+26. Синхронизирање со remote repo:
+	-git push -u -a -f origin bug1
+27. Синхронизирани се од предходното барање.
+28. Додавање на 2 txt датотеки и commit:
+	-git log
+	-git add *.txt
+    	-git commit -m "Final commit"
+29. Последно синхронизирање со remote repo-то:
+	-git push -u origin master

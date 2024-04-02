@@ -1,0 +1,33 @@
+commit 7ea3ac18906854f0d1931588cd51b13ae37ab68b (HEAD -> master, origin/master, bug2)
+Author: Marko <markoivanovski.mi@icloud.com>
+Date:   Tue Apr 2 17:48:09 2024 +0200
+commit 7ea3ac18906854f0d1931588cd51b13ae37ab68b (HEAD -> master, origin/master, bug2)
+Author: Marko <markoivanovski.mi@icloud.com>
+Date:   Tue Apr 2 17:48:09 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 649257e805faf8a49c8806ecdd53a5b29e8fe539 (origin/bug1, bug1)
+Author: Marko <markoivanovski.mi@icloud.com>
+Date:   Tue Apr 2 17:52:05 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit b128e9ed221f5967b8f1d3acf318e8159e821693
+Author: Marko <markoivanovski.mi@icloud.com>
+Date:   Tue Apr 2 17:45:54 2024 +0200
+Date:   Tue Apr 2 17:45:54 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 31bf267246c795e9d27965e8849f68184e5f18ba
+Author: Marko <markoivanovski.mi@icloud.com>
+Date:   Tue Apr 2 17:35:49 2024 +0200
+
+    Add starter code
+
+commit 03bca82e8564562491c0f92fb1aac92ce546a4f9
+Author: Marko <markoivanovski.mi@icloud.com>
+Date:   Tue Apr 2 17:06:16 2024 +0200
+
+    Initial commit
