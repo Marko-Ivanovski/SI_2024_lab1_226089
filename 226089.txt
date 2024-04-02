@@ -55,11 +55,11 @@
 25. Спојување на гранка bug2 со master:
 	-git merge bug2
 26. Синхронизирање со remote repo:
-	-git push -u -a -f origin bug1
+	-git push -u --all --force origin bug1
 27. Синхронизирани се од предходното барање.
 28. Додавање на 2 txt датотеки и commit:
 	-git log
 	-git add *.txt
     	-git commit -m "Final commit"
 29. Последно синхронизирање со remote repo-то:
-	-git push -u -a origin master
+	-git push -u --all origin master
